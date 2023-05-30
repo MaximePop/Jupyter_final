@@ -1,0 +1,5 @@
+json version: 2.0.9
+pandas version: 1.5.3
+matplotlib version: 3.7.0
+ipywidgets version: 7.6.5
+IPython version: 8.10.0

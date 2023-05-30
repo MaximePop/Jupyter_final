@@ -1,0 +1,33 @@
+# Book settings
+title: Les Jupyter Notebooks en Sciences Humaines et Sociales.
+author: POPINEAU Maxime
+copyright: "2023"
+logo: ""
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/MaximePop/Jupyter1
+  path_to_book:
+  branch: main
+html:
+  use_repository_button: true
+
+# Parse and render settings
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+
+# Launch buttons
+launch_buttons:
+  notebook_interface: jupyterlab
+  binderhub_url: https://mybinder.org
+  thebe: true

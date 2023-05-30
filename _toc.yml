@@ -1,0 +1,28 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Présentation
+    chapters:
+      - file: presentation
+  - caption: Introduction
+    chapters:
+      - file: intro -2
+  - caption: Articles en français
+    chapters:
+      - file: intro -2
+      - file: markdown
+      - file: markdown-notebooks
+  - caption: Articles in english
+    chapters:
+      - file: intro-eng
+      - file: markdown-en
+      - file: markdown-notebooks-en
+  - caption: Bibliographie (FR) / Bibliography (EN)
+    chapters:
+    - file: bibliographie_fr
+    - file: bibliography_eng
+  - caption: Glossaire (FR) / Glossary (EN)
+    chapters:
+    - file: glossaire_fr
+    - file: glossaire_eng
+
