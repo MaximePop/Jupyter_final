@@ -1,4 +1,4 @@
-# Bienvenue sur mon site sur l'usage des Jupyter Notebooks en Sciences Humaines et Sociales.
+# Bienvenue sur mon site sur l'usage des Jupyter Notebooks en Sciences Humaines et Sociales. (FR)
 
 ## Partie 1 : Présentation du projet.
 
@@ -20,7 +20,6 @@ Je suis titulaire d'une licence d'histoire de l'université de Tours, d'un Maste
 ## Partie 3 : Lien
 
 Le site internet est disponible et hébergé sur Curvenote grâce à ce lien : https://popineaumaxime-les.curve.space/myst/presentation
-
 
 
 
