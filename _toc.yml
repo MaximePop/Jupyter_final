@@ -9,12 +9,13 @@ parts:
       - file: intro -2
   - caption: Articles en français
     chapters:
-      - file: intro -2
       - file: markdown
-      - file: markdown-notebooks
-  - caption: Articles in english
+      - file: notebooks
+  - caption: Introduction (EN)
     chapters:
       - file: intro-eng
+  - caption: Articles in english
+    chapters:
       - file: markdown-en
       - file: markdown-notebooks-en
   - caption: Bibliographie (FR) / Bibliography (EN)

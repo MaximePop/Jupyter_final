@@ -13,10 +13,13 @@ venue:
   url: "https://api.archives-ouvertes.fr/docs/search"
 open_access: true
 repository:
-  url: https://github.com/MaximePop/Jupyter1
+  url: https://github.com/MaximePop/Jupyter-Notebook-in-social-science
 html:
-  use_repository_button: true
-  
+  use_issues_button: true
+exports:
+  - format: pdf
+    template: plain_latex
+
 ---
 Par POPINEAU Maxime (rapport réalisé en stage de Master 2 coencadré par Marie-Laure Massot, Emilien Schultz et Agnès Tricoche, dans le cadre de l'initiative Digit_Hum, d'avril-juillet 2023).[^1]
 

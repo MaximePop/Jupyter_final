@@ -11,7 +11,7 @@ keywords: Jupyter Notebooks, SHS
 date: "2023-05-23"
 venue:
   title: Lien vers le répertoire Github
-  url: "https://github.com/MaximePop/JupyterSHStest"
+  url: "https://github.com/MaximePop/Jupyter-Notebook-in-social-science"
 launch_buttons:
   binderhub_url: "https://hub.ovh2.mybinder.org/user/maximepop-testjupyter-alr2ukym/lab/tree/notebooks.ipynb"
 
@@ -30,18 +30,15 @@ En 2014, le chercheur en physique Fernando Pérez, annonce un projet issu de son
 
 +++
 
+
 ## **1. Introduction**
 
-Un [Jupyter](https://fr.wikipedia.org/wiki/Jupyter) Notebook est un document manipulable dans le navigateur internet composé de plusieurs cellules, combinant à la fois du code, du texte et des visualisations graphiques, le code pouvant être modifié et exécuté interactivement.  Venu de la communauté Python, intégrant R[^2] ou Julia[^3], les Jupyter Notebooks supportent plus de 40 langages de programmation. Les Jupyter Notebooks et notamment le langage informatique Python[^4] commencent à être très utilisés dans de nombreux domaines scientifiques mais encore peu en SHS.
+
+Un <wiki:Jupyter> Notebook est un document manipulable dans le navigateur internet composé de plusieurs cellules, combinant à la fois du code, du texte et des visualisations graphiques, le code pouvant être modifié et exécuté interactivement.  Venu de la communauté Python, intégrant R[^2] ou Julia[^3], les Jupyter Notebooks supportent plus de 40 langages de programmation. Les Jupyter Notebooks et notamment le langage informatique Python[^4] commencent à être très utilisés dans de nombreux domaines scientifiques mais encore peu en SHS.
 
 Ce support est en mesure de faciliter la pratique computationnelle des chercheurs en SHS ; en favorisant un standard permettant d’homogénéiser les réflexions intégrant du code et de partager facilement leur recherche. Les Jupyter Notebooks peuvent avoir de nombreux avantages comme celui de faciliter une approche interdisciplinaire car il est facile de réutiliser un Notebook pour le modifier selon ses besoins. Un autre avantage des Notebooks est leur aspect versatile : ils peuvent à ce titre être utilisé dans le cadre de la recherche ou bien de l’enseignement.
 
-Bien qu’encore peu exploités dans le domaine des SHS, les Notebooks ont gagné en popularité dans le contexte de l’éducation. En France, c’est actuellement l’un des outils les plus utilisés par les enseignants en informatique en raison de leur facilité pédagogique selon [](doi:10.1109/VL/HCC51201.2021.9576363) [^5]. 
-
-<a href="C:\Users\Maxime\Desktop\Maxime1\Jupyter1\hal.pdf" download="hal.pdf">
-   <span title="Cliquez pour télécharger">Lien pour télécharger l'article</span>
-</a>
-
+Bien qu’encore peu exploités dans le domaine des SHS, les Notebooks ont gagné en popularité dans le contexte de l’éducation. En France, c’est actuellement l’un des outils les plus utilisés par les enseignants en informatique en raison de leur facilité pédagogique selon [](doi:10.1109/VL/HCC51201.2021.9576363) [^5].
 
 Cette synthèse propose un panorama sur les avantages et les inconvénients de cet outil dans le cadre de la pratique de recherche en SHS impliquant à divers degrés du traitement de données avec un langage de programmation.
 
@@ -73,7 +70,6 @@ Face à la diversité des usages se pose la question de la stabilisation des bon
 | Favorise la narration. |
 | Met en place des cellules pour clarifier les différentes étapes. |
 | Permet aux utilisateurs de changer les résultats grâce aux ipy widgets[^8]. | 
-
 | Travail réutilisable |
 | :- |
 | Facilité l’accès à son travail et son partage. |
@@ -153,11 +149,7 @@ Prérequis : Bien qu'il y ait beaucoup d’extensions facilitant l’usage des 
 
 - Installer Anaconda sur son ordinateur pour pouvoir utiliser Jupyter Notebook et d’autres outils.
 
-La littérature permet d’identifier quelques bonnes pratiques pour construire et partager un notebook selon [](doi:10.1371/journal.pcbi.1007007). [^24] (article complet disponible ici )
-
-<a href="C:\Users\Maxime\Desktop\Maxime1\Jupyter1\file.pdf" download="file.pdf">
-   <span title="Cliquez pour télécharger">Lien pour télécharger l'article</span>
-</a>
+La littérature permet d’identifier quelques bonnes pratiques pour construire et partager un notebook selon [](doi:10.1371/journal.pcbi.1007007). [^24] :
 
 - L’importance est de raconter à l’audience une histoire, ce qui nécessite une explication des différentes étapes pour essayer de résoudre la question de recherche.
 - Il est important de documenter tout le processus et pas seulement les résultats.
@@ -208,7 +200,7 @@ https://www.freecodecamp.org/
 
 Le site FreeCodeCamp met en ligne des ressources qui permettent d’apprendre à coder gratuitement. Leur chaîne youtube propose aussi des vidéos dont une sur python - de très bonne qualité - disponible à cette adresse :
 
-[![Alt Text](https://img.youtube.com/vi/rfscVS0vtbw/0.jpg)](https://www.youtube.com/watch?v=rfscVS0vtbw)
+<https://www.youtube.com/watch?v=rfscVS0vtbw>
 
 https://programminghistorian.org/fr/
 
@@ -217,15 +209,6 @@ Le site Programming Historian propose des leçons en ligne pour aider les cherch
 <https://www.anaconda.com/download>
 
 Anaconda permet d'ouvrir les Jupyter Notebooks et d'en créer. Anaconda propose de nombreux services : comme des IDE (DataSpell, Spyder) et d'autres logiciels comme JupyterLab, Jupyter Notebook, RStudio.
-
-[reference1](Anaconda), [reference2](#Tutorial),
-
-[Anaconda](https://www.anaconda.com/download)
-
-Anaconda permet d'ouvrir les Jupyter Notebooks et d'en créer. Anaconda propose de nombreux services : comme des IDE (DataSpell, Spyder) et d'autres logiciels comme JupyterLab, Jupyter Notebook, RStudio.
-
-[Tutorial](https://www.youtube.com/watch?v=syijLJ3oQzU&ab_channel=AmitThinks)
-
 
 <https://jupyter.org/>
 

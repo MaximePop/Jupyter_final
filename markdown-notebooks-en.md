@@ -1,7 +1,7 @@
 ---
-title: "An overview of computer practices in research publications in the HAL database."
-subject: "Discovery of libraries and APIs."
-subtitle: "An example of the best practices to put in place to constitute a Notebook."
+title: "A panorama of computing practices in research publications in the HAL database."
+subject: "Discovering libraries and APIs."
+subtitle: "An example of best practices for creating a Notebook."
 authors:
   - name: "POPINEAU Maxime"
     affiliations: "Digit_Hum"
@@ -13,14 +13,14 @@ venue:
   url: "https://api.archives-ouvertes.fr/docs/search"
 open_access: true
 repository:
-  url: https://github.com/MaximePop/Jupyter1
+  url: https://github.com/MaximePop/Jupyter-Notebook-in-social-science
 html:
-  use_repository_button: true
+  use_issues_button: true
 
 ---
 By POPINEAU Maxime (report produced as part of a Master 2 internship co-supervised by Marie-Laure Massot, Emilien Schultz and Agnès Tricoche, as part of the Digit_Hum initiative, from April-July 2023)[^1].
 
-## <span style="font-size: 14pt"> Information on the data.</span>
+## <span style="font-size: 14pt"> Information sur les données.</span>
 
 The data used in this notebook comes from the HAL website (https://hal.science/). The HAL multi-disciplinary open archive is designed for the deposit and open access dissemination of scientific work by researchers, from French and foreign teaching and research establishments, and public and private laboratories. Its online interface enables knowledge to be shared freely. It is also possible to interact with the HAL database via an API*, and in particular to interrogate it to carry out searches according to various criteria, then to retrieve the results in different structured data formats.
 
@@ -48,23 +48,23 @@ IpyWidgets allow users who don't know how to code to use the HAL API with parame
 :::
 
 
-## <span style="font-size: 14pt"> Objectives of this Jupyter notebook.</span>
+## <span style="font-size: 14pt"> Objectifs de ce Jupyter Notebook.</span>
 
-Ce Jupyter Notebook vise à :
+This Jupyter Notebook aims to: :
 
-1. Faire un panorama des pratiques numériques des chercheurs.
-2. Fournir un exemple de Jupyter Notebook reproductible et de qualité. 
-3. Enseigner des compétences aux utilisateurs débutants ou expérimentés avec Python.
+1. Provide an overview of researchers' digital practices.
+2. Provide an example of a reproducible and high-quality Jupyter Notebook.
+3. Teach skills to beginner or experienced users with Python.
 
-## <span style="font-size: 14pt"> Required skills.</span>
+## <span style="font-size: 14pt">Required Skills.</span>
 
-Ce Jupyter Notebook est à destination d'un public débutant. Il est préférable de connaître le langage informatique Python pour suivre le Notebook, mais cela n'est pas obligatoire.
+This Jupyter Notebook is intended for a beginner audience. It is preferable to have knowledge of the Python programming language to follow along, but it is not mandatory.
 
-Le document permet d'acquérir des compétences variées comme :
+The document allows you to acquire various skills, such as:
 
-1. Savoir utiliser les différentes librairies comme pandas et matplotlib.
-2. Utiliser les fonctions en Python pour éviter la duplication du code.
-3. Savoir faire une requête dans une API.
+1. Knowing how to use different libraries like pandas and matplotlib.
+2. Utilizing Python functions to avoid code duplication.
+3. Being able to make requests to an API.
 
 
 ## Section 0: Importing libraries.
@@ -127,7 +127,7 @@ def get_publication_counts(query):
 
 ```
 
-Nous allons ensuite appelet cette fonction et imprimer le dataframe créé grâce à la librairie Pandas.
+Next, we will call this function and print the dataframe created using the Pandas library.
 
 
 ```python
@@ -199,7 +199,7 @@ plt.show()
 
 ```
 
-    Le nombre d'articles contenant le mot clé 'python' est de : 29737
+    The number of articles containing the keyword 'python' is: 29,737.
     
     
     
@@ -472,9 +472,9 @@ print(df)
     10  0.chim     0.983900
     
 
-The results obtained confirm our hypothesis. Jupyter Notebooks are beginning to be used in SHS disciplines, but very few: 3.8%. The change in the use of Notebooks is more marked in computer science: 17%, in Statistics or in life sciences: 7%. 
+The results obtained confirm our hypothesis. Jupyter Notebooks are beginning to be used in Social Sciences disciplines, but very few: 3.8%. The change in the use of Notebooks is more marked in computer science: 17%, in Statistics or in life sciences: 7%. 
 
-Indeed, it still seems quite complicated to find Notebooks available in SHS whether in History or Geography (not to mention archaeology, literature or philosophy). One explanation could be that the practice of Notebooks in SHS is new and also that the social sciences have less need to use programming languages in their daily practice. 
+Indeed, it still seems quite complicated to find Notebooks available in Social Sciences whether in History or Geography (not to mention archaeology, literature or philosophy). One explanation could be that the practice of Notebooks in Social Sciences is new and also that the social sciences have less need to use programming languages in their daily practice. 
 
 Finally, the lack of resources for training and cases of studies on the use of Jupyter Notebooks in the context of SHS seem to be a hindrance to the appropriation of its tools by SHS practitioners.
 

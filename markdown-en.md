@@ -1,7 +1,7 @@
 ---
-title: "Jupyter Notebooks in SHS: advantages, disadvantages and best practices"
-subject: "Jupyter Notebooks in SHS"
-subtitle: "Petit panorama d'un outil en pleine expansion à destination des acteurs de l'Enseignement Supérieur et de la Recherche en Sciences Humaines et sociales."
+title: "Jupyter Notebooks in Social Sciences: advantages, disadvantages and best practices"
+subject: "Jupyter Notebooks in Social Sciences"
+subtitle: "A brief overview of a fast-expanding tool for higher education and research in social sciences."
 authors:
   - name: "POPINEAU Maxime"
     affiliations: "Digit_Hum"
@@ -11,10 +11,7 @@ keywords: Jupyter Notebooks, SHS
 date: "2023-05-23"
 venue:
   title: Lien vers le répertoire Github
-  url: "https://github.com/MaximePop/JupyterSHStest"
-open_access: true
-
-
+  url: "https://github.com/MaximePop/Jupyter-Notebook-in-social-science"
 ---
 
 <span style="font-size: 12px;"><i>By POPINEAU Maxime (report produced as part of a Master 2 internship co-supervised by Marie-Laure Massot, Emilien Schultz and Agnès Tricoche, as part of the Digit_Hum initiative, April-July 2023[^1] ), May 2023</i></span>
@@ -25,28 +22,27 @@ open_access: true
 
 +++ {"part": "abstract"}
 
-In 2014, physics researcher Fernando Pérez announced a project based on his iPython interactive programming environment for scientists: the Jupyter project. The latter is developed around an ecosystem of interactive software for programming such as: the Jupyter Hub, the JupyterLab or the Jupyter Notebook. Our paper focuses on the role of Jupyter Notebooks in the humanities and social sciences.
+In 2014, physics researcher Fernando Pérez announced a project based on his iPython interactive programming environment for scientists: the Jupyter project. The latter is developed around an ecosystem of interactive software for programming such as: the Jupyter Hub, the JupyterLab or the Jupyter Notebook. Our paper focuses on the role of Jupyter Notebooks in the social sciences.
 
 +++
-
 
 
 ## **1. Introduction**
 
 
-A <wiki:Jupyter> Notebook is a document that can be manipulated in the web browser, made up of several cells, combining code, text and graphical visualizations, with the code able to be modified and executed interactively.  Originating from the Python community, integrating R[^2] or Julia[^3], Jupyter Notebooks support over 40 programming languages. Jupyter Notebooks, and in particular the computer language Python[^4], are beginning to be used extensively in many scientific fields, but not so much in the social sciences and humanities.
+A <wiki:Jupyter> Notebook is a document that can be manipulated in the web browser, made up of several cells, combining code, text and graphical visualizations, with the ability to modify the code and executing it interactively. Coming from the Python community, integrating R[^2] or Julia[^3], Jupyter Notebooks support over 40 programming languages. Jupyter Notebooks, and in particular Python[^4], are beginning to be used extensively in many scientific fields, but not so much in Social Sciences.
 
-This medium can facilitate the computational practice of SHS researchers, by promoting a standard that enables them to homogenize their thoughts integrating code and to share their research easily. Jupyter Notebooks can have many advantages, such as facilitating an interdisciplinary approach, since it's easy to reuse a Notebook and modify it as required. Another advantage of Notebooks is their versatility: they can be used for both research and teaching purposes.
+This medium can facilitate the computational practice of social researchers, by promoting a standard that enables them to homogenize their thoughts, integrating code and to share their research easily. Jupyter Notebooks can have many advantages, such as facilitating an interdisciplinary approach, since it's easy to reuse a Notebook and modify it for your needs. Another advantage of Notebooks is their versatility: they can be used for both research and teaching purposes.
 
-Although still little exploited in the SHS field, Notebooks have gained in popularity in the educational context. In France, they are currently one of the most popular tools used by computer science teachers because of their pedagogical ease, according to [](doi:10.1109/VL/HCC51201.2021.9576363)[^5].
+Although still little exploited in the Social Sciences field, Notebooks have gained in popularity in the educational context. In France, they are currently one of the most popular tools used by computer science teachers because of their pedagogical ease, according to [](doi:10.1109/VL/HCC51201.2021.9576363)[^5].
 
-This synthesis offers an overview of the advantages and disadvantages of this tool in the context of SHS research practice involving data processing with a programming language to varying degrees.
+This synthesis offers an overview of the advantages and disadvantages of this tool in the context of Social Science research involving data processing with a programming language at varying degrees.
 
-To give just a few examples, Jupyter Notebooks can be used in bdifferent SHS disciplines and for a variety of purposes.
+To give just a few examples, Jupyter Notebooks can be used in different Social Sciences disciplines and for a variety of purposes.
 
 - Linguistics: Notebooks are useful for computational linguistics. This notebook[^6] offers an analysis of the translation of a text into different languages. The analysis focuses on the number of words per translation and their statistical divergence. 
 
-- In geography: Notebooks can be useful for improving collaborative work by giving greater flexibility to the processing of geolocalized data, for example by combining GeoPandas and CartoPy in a reproducible interactive interface.
+- In geography: Notebooks can be useful for improving collaborative work by giving greater flexibility in the processing of geolocalized data, for example by combining GeoPandas and CartoPy in a reproducible interactive interface.
 
 - In sociology: Notebooks are used to explore statistical data widely available from institutions or research organizations participating in open science. For example, a notebook[^7] on professional mobility was created using INSEE data.
 
@@ -181,7 +177,7 @@ Programming in science, particularly with Python, and new tools like Jupyter Not
 - As part of a collaborative research project between researchers familiar with the tool and Python. It's easier to work on a common tool than with files using different software.
 - As part of computer science teaching. Notebooks can be used to set up exercises that can then be done by students. Notebooks are very easy to modify: students can understand the modification in the code and see how the results evolve.
 
-Jupyter Notebooks don't put the machine at the heart of the research process, but rather the human: the environment encourages interaction and exploration. The interactivity of Notebooks enables users to efficiently run, modify, document, explore and collaborate in a single integrated development environment, making them an excellent tool for SHS.
+Jupyter Notebooks don't put the machine at the heart of the research process, but rather the human: the environment encourages interaction and exploration. The interactivity of Notebooks enables users to efficiently run, modify, document, explore and collaborate in a single integrated development environment, making them an excellent tool for Social Sciences.
 
 The Jupyter Notebook community is largely rooted in the scientific community: the Jupyter project was created by researchers for researchers. In doing so, similar values are shared around open source, helping newcomers, exploring new solutions and reproducibility. Notebooks are not just a tool, but above all a dynamic community that constantly creates new solutions for research.
 
