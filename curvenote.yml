@@ -7,12 +7,12 @@ project:
     - SHS
     - HAL
     - API
-  tags: Jupyter Notebooks, SHS, HAL, API
   authors: []
+  github: MaximePop/Jupyter_final
   thebe:
     binder:
-      repo: MaximePop/testJupyter
-      ref: main
+      repo: MaximePop/Jupyter_final
+      ref: HEAD
 site:
   template: book-theme
   nav: []
@@ -25,7 +25,7 @@ site:
       url: https://curvenote.com/
     - title: Digit_Hum
       url: https://digithum.huma-num.fr/
-  github: MaximePop/testJupyter
+
   projects:
     - path: .
       slug: myst
